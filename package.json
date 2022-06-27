@@ -5,13 +5,17 @@
   "author": "Gerardo Leal <gerard.leal91@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel --https",
-    "build": "parcel build --dist-dir docs"
+    "prestart": "yarn clean",
+    "start": "parcel --https --dist-dir docs",
+    "prebuild": "yarn clean",
+    "build": "parcel build --dist-dir docs",
+    "clean": "rimraf docs"
   },
   "dependencies": {
     "peerjs": "^1.4.6"
   },
   "devDependencies": {
-    "parcel": "^2.6.2"
+    "parcel": "^2.6.2",
+    "rimraf": "^3.0.2"
   }
 }
