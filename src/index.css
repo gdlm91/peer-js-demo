@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: darkslategrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: antiquewhite;
+}
+
+h1 {
+  font-size: 6rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: auto;
+}
+
+p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+button {
+  background-color: -internal-light-dark(white, black);
+  padding: 1rem 10rem;
+  border-radius: 3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.call-btn {
+  background-color: darkslategrey;
+  color: antiquewhite;
+  font-size: 3rem;
+  margin-left: 7rem;
+}
+
+.hangup-btn {
+  background-color: darkred;
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 6rem;
+  margin-top: 4rem;
+}

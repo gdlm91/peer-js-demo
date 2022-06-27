@@ -1,0 +1,16 @@
+{
+  "name": "peer-js",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "author": "Gerardo Leal <gerard.leal91@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel --https"
+  },
+  "dependencies": {
+    "peerjs": "^1.4.6"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
