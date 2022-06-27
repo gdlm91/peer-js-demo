@@ -8,7 +8,7 @@
     "prestart": "yarn clean",
     "start": "parcel --https --dist-dir docs",
     "prebuild": "yarn clean",
-    "build": "parcel build --dist-dir docs",
+    "build": "parcel build --dist-dir docs --public-url ./",
     "clean": "rimraf docs"
   },
   "dependencies": {
